@@ -4,4 +4,19 @@
 
 .bordered {
   margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-img-top{
+}
+
+.card{
+  background-color: #f3bee4;
+}
+
+
+body {
+  background-color: #f3e0be; //Vanilla Custard
+  /* background-color: #ff6f61; //Living Coral */
 }

@@ -17,9 +17,10 @@
     <title>Kenneth Doan's Page</title>
   </head>
 
-  <body>
+  <body class="custom-font">
+    <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">KD</a>
+      <a class="navbar-brand" href="./index.html">KD</a>
 
       <button class="navbar-toggler"
               type="button"
@@ -45,25 +46,64 @@
       </div>
     </nav>
 
+    <!-- Profile Picture with Name -->
     <div class="text-center">
-    <img class="rounded bordered" style="height:250px;width:250px;" src="static/img/doankt_profile.jpg">
-    <h1 class="bordered">Kenneth Doan</h1>
-    <div class="bordered" />
-  </div>
+      <img class="rounded bordered" style="height:250px;width:250px;" src="static/img/doankt_profile.jpg">
+      <h1 class="bordered">Kenneth Doan</h1>
+    </div>
 
-  <div class="text-center">
-    <a href="https://www.facebook.com/kenneth.doan.7" target="_blank">
-      <button type="button" class="btn btn-outline-dark">Facebook</button>
-    </a>
-    <a href="https://www.instagram.com/kenneth_doan/" target="_blank">
-      <button type="button" class="btn btn-outline-dark">Instagram</button>
-    </a>
-    <a href="https://www.teamusa.org/usa-taekwondo/athletes/Kenneth-Doan" target="_blank">
-      <button type="button" class="btn btn-outline-dark">Team USA Profile</button>
-    </a>
+    <!-- Row of button links -->
+    <div class="text-center">
+      <a href="https://www.facebook.com/kenneth.doan.7" target="_blank">
+        <button type="button" class="btn btn-outline-dark">Facebook</button>
+      </a>
+      <a href="https://www.instagram.com/kenneth_doan/" target="_blank">
+        <button type="button" class="btn btn-outline-dark">Instagram</button>
+      </a>
+      <a href="https://www.teamusa.org/usa-taekwondo/athletes/Kenneth-Doan" target="_blank">
+        <button type="button" class="btn btn-outline-dark">Team USA Profile</button>
+      </a>
+    </div>
 
-  </div>
+    <!-- Card Columns -->
+    <div class="bordered card-columns">
+      <!-- About Me card -->
+      <div class="card">
+        <img class="p-3 card-img-top" src="./static/img/temp.png">
+        <div class="card-body text-center">
+          <h4 class="card-title">About Me</h4>
+          <p class="card-text">Hi! I'm a third year student at <kbd>University of California, Irvine</kbd> currently studying <kbd>Computer Science</kbd>.</p>
+          <p class="card-text">Along side, I have been a <kbd>USA National Team Member</kbd> in Taekwondo first starting in 2014.</p>
+        </div>
+      </div>
 
+      <!-- Personal Info card -->
+      <div class="card">
+        <img class="p-3 card-img-top" src="./static/img/temp.png">
+        <div class="card-body text-center">
+          <h4 class="card-title">Personal Info</h4>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item" style="background-color: transparent"><p class="card-text">Age: <kbd>20</kbd></p></li>
+            <li class="list-group-item" style="background-color: transparent"><p class="card-text">Birthdate: <kbd>June 16, 1999</kbd></p></li>
+            <li class="list-group-item" style="background-color: transparent"><p class="card-text">Hometown: <kbd>San Jose, CA</kbd></p></li>
+            <li class="list-group-item" style="background-color: transparent"><p class="card-text">Current Residence: <kbd>Irvine, CA</kbd></p></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contact Info card -->
+      <div class="card">
+        <img class="p-3 card-img-top" src="./static/img/temp.png">
+        <div class="card-body text-center">
+          <h4 class="card-title">Contact Info</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item" style="background-color: transparent"><p class="card-text">Primary Email: <kbd>kennethdoanor@gmail.com</kbd></p></li>
+            <li class="list-group-item" style="background-color: transparent"><p class="card-text">Secondary Email: <kbd>doankt@uci.edu</kbd></p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>
