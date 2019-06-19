@@ -13,15 +13,19 @@
 }
 
 .card{
-  background-color: #f3bee4;
+  background-color: #f3d2be;
 }
 
 .card-header{
-  background-color: #f3bee4;
+  background-color: #f3d2be;
+}
+
+.card-link{
+  color: black;
 }
 
 .jumbotron{
-  background-color: #f3bee4;
+  background-color: #f3d2be;
   text-align: center;
 }
 
