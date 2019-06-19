@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -12,14 +13,14 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <link href="static/index.css" rel='stylesheet' type='text/css'>
 
+    <!-- ion-icons dependencies -->
     <script type="module" src="https://unpkg.com/ionicons@4.5.9-1/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/ionicons@4.5.9-1/dist/ionicons/ionicons.js"></script>
-
     <title>Kenneth Doan's Page</title>
   </head>
 
   <body class="custom-font">
-    <!-- Navigation bar -->
+    <!-- navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="./index.html">KD</a>
 
@@ -47,42 +48,42 @@
       </div>
     </nav>
 
-    <!-- Profile Picture with Name -->
+    <!-- profile picture with name -->
     <div class="text-center">
       <img class="rounded bordered" style="height:250px;width:250px;" src="static/img/doankt_profile.jpg">
       <h1 class="bordered">Kenneth Doan</h1>
     </div>
 
-    <!-- Row of button links -->
+    <!-- row of icon links -->
     <div class="text-center">
-      <a class="icon" href="https://www.facebook.com/kenneth.doan.7" target="_blank">
+
+      <!-- Facebook icon -->
+      <a title="Facebook" class="icon" href="https://www.facebook.com/kenneth.doan.7" target="_blank">
         <ion-icon name="logo-facebook"></ion-icon>
-        <!-- <button type="button" class="btn btn-outline-dark">Facebook</button> -->
       </a>
 
-      <a href="https://www.instagram.com/kenneth_doan/" target="_blank">
+      <!-- Instagram icon -->
+      <a title="Instagram" class="icon" href="https://www.instagram.com/kenneth_doan/" target="_blank">
         <ion-icon name="logo-instagram"></ion-icon>
-        <!-- <button type="button" class="btn btn-outline-dark">Instagram</button> -->
       </a>
 
-      <a href="https://www.linkedin.com/in/kenneth-d-577850b4/" target="_blank">
+      <!-- LinkedIn icon -->
+      <a title="LinkedIn" class="icon" href="https://www.linkedin.com/in/kenneth-d-577850b4/" target="_blank">
         <ion-icon name="logo-linkedin"></ion-icon>
-        <!-- <button type="button" class="btn btn-outline-dark">LinkedIn</button> -->
       </a>
 
-      <a href="https://github.com/Doankt" target="_blank">
+      <!-- GitHub icon -->
+      <a title="GitHub" class="icon" href="https://github.com/Doankt" target="_blank">
         <ion-icon name="logo-github"></ion-icon>
-        <!-- <button type="button" class="btn btn-outline-dark">GitHub</button> -->
       </a>
 
-      <a href="https://www.teamusa.org/usa-taekwondo/athletes/Kenneth-Doan" target="_blank">
+      <!-- Taekwondo icon -->
+      <a title="Team USA Profile" class="icon" href="https://www.teamusa.org/usa-taekwondo/athletes/Kenneth-Doan" target="_blank">
         <ion-icon src="static/icons/taekwondo_vector.svg"></ion-icon>
-        <!-- <ion-icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Taekwondo_pictogram.svg"></ion-icon> -->
-        <!-- <button type="button" class="btn btn-outline-dark">Team USA Profile</button> -->
       </a>
     </div>
 
-    <!-- Jumbotron -->
+    <!-- welcome card -->
     <div class="bordered card">
       <div class="card-body text-center">
         <h4 class="card-title">Personal Statement</h4>
@@ -90,9 +91,10 @@
       </div>
     </div>
 
-    <!-- Card Columns -->
+    <!-- card columns -->
     <div class="bordered card-columns">
-      <!-- About Me card -->
+
+      <!-- about me card -->
       <div class="card">
         <img class="p-4 card-img-top" src="./static/img/taekwondo/doankt_tkd0.jpg">
         <div class="card-body text-center">
@@ -102,7 +104,7 @@
         </div>
       </div>
 
-      <!-- Personal Info card -->
+      <!-- personal info card -->
       <div class="card">
         <img class="p-4 card-img-top" src="./static/img/irvine_spectrum.jpg">
         <div class="card-body text-center">
@@ -117,30 +119,35 @@
         </div>
       </div>
 
-      <!-- Contact Info card -->
+      <!-- contact info card -->
       <div class="card">
         <img class="p-4 card-img-top" src="./static/img/temp.png">
         <div class="card-body text-center">
           <h4 class="card-title">Contact Info</h4>
+
           <ul class="list-group list-group-flush">
+
+            <!-- primary email li -->
             <li class="list-group-item" style="background-color: transparent">
               <p class="card-text">Primary Email: <kbd>kennethdoanor@gmail.com</kbd></p>
 
-              <a href="mailto:kennethdoanor@gmail.com">
-                <button type="button" class="btn btn-outline-dark">Email Primary</button>
+              <a title="Mail Primary" class="icon" href="mailto:kennethdoanor@gmail.com">
+                <ion-icon name="mail"></ion-icon>
               </a>
             </li>
 
+            <!-- secondary email li -->
             <li class="list-group-item" style="background-color: transparent">
               <p class="card-text">Secondary Email: <kbd>doankt@uci.edu</kbd></p>
 
-              <a href="mailto:doankt@uci.edu">
-                <button type="button" class="btn btn-outline-dark">Email Secondary</button>
+              <a title="Mail Secondary" class="icon" href="mailto:doankt@uci.edu">
+                <ion-icon name="mail"></ion-icon>
               </a>
             </li>
           </ul>
         </div>
       </div>
+
     </div>
 
   <!-- Add dependencies -->
@@ -148,4 +155,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
+
 </html>
