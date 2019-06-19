@@ -11,7 +11,7 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
           crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <link href="static/index.css" rel='stylesheet' type='text/css'>
+    <link href="./static/css/index.css" rel='stylesheet' type='text/css'>
 
     <!-- ion-icons dependencies -->
     <script type="module" src="https://unpkg.com/ionicons@4.5.9-1/dist/ionicons/ionicons.esm.js"></script>
@@ -50,7 +50,7 @@
 
     <!-- profile picture with name -->
     <div class="text-center">
-      <img class="rounded bordered" style="height:250px;width:250px;" src="static/img/doankt_profile.jpg">
+      <img class="rounded bordered" style="height:250px;width:250px;" src="static/media/img/doankt_profile.jpg">
       <h1 class="bordered">Kenneth Doan</h1>
     </div>
 
@@ -79,7 +79,7 @@
 
       <!-- Taekwondo icon -->
       <a title="Team USA Profile" class="icon" href="https://www.teamusa.org/usa-taekwondo/athletes/Kenneth-Doan" target="_blank">
-        <ion-icon src="static/icons/custom/taekwondo_vector.svg"></ion-icon>
+        <ion-icon src="static/media/icons/custom/taekwondo_vector.svg"></ion-icon>
       </a>
     </div>
 
@@ -96,7 +96,7 @@
 
       <!-- about me card -->
       <div class="card">
-        <img class="p-4 card-img-top" src="./static/img/taekwondo/doankt_tkd0.jpg">
+        <img class="p-4 card-img-top" src="./static/media/img/taekwondo/doankt_tkd0.jpg">
         <div class="card-body text-center">
           <h4 class="card-title">About Me</h4>
           <p class="card-text">Hi! I'm a third year student at <kbd>University of California, Irvine</kbd> currently studying <kbd>Computer Science</kbd>.</p>
@@ -106,7 +106,6 @@
 
       <!-- programming languages card -->
       <div class="card">
-        <!-- <img class="p-4 card-img-top" src="./static/img/irvine_spectrum.jpg"> -->
         <div class="card-body text-center">
           <h4 class="card-title">Programming Skills</h4>
           <p class="card-text">Rated from <kbd>Beginner</kbd>, <kbd>Familiar</kbd>, <kbd>Proficient</kbd>.</p>
@@ -115,84 +114,84 @@
             <!-- C -->
             <li class="list-group-item">
               <a data-toggle="collapse" class="icon" data-target="#c_collapse">
-                <ion-icon src="./static/icons/devicon/c/c-plain.svg"></ion-icon>
+                <ion-icon src="./static/media/icons/devicon/c/c-plain.svg"></ion-icon>
               </a>
 
               <div id="c_collapse" class="collapse">
                 <p class="card-text">Proficiency: <kbd>Proficient</kbd></p>
-                <p class="card-text">Years of Experience: <kbd>1</kbd></p>
+                <p class="card-text">Years of Experience: <kbd id="c_years">1</kbd></p>
               </div>
             </li>
 
             <!-- C++ -->
             <li class="list-group-item">
               <a data-toggle="collapse" class="icon" data-target="#cplusplus_collapse">
-                <ion-icon src="./static/icons/devicon/cplusplus/cplusplus-plain.svg"></ion-icon>
+                <ion-icon src="./static/media/icons/devicon/cplusplus/cplusplus-plain.svg"></ion-icon>
               </a>
 
               <div id="cplusplus_collapse" class="collapse">
                 <p class="card-text">Proficiency: <kbd>Proficient</kbd></p>
-                <p class="card-text">Years of Experience: <kbd>2</kbd></p>
+                <p class="card-text">Years of Experience: <kbd id="cplusplus_years">2</kbd></p>
               </div>
             </li>
 
             <!-- Git -->
             <li class="list-group-item">
               <a data-toggle="collapse" class="icon" data-target="#git_collapse">
-                <ion-icon src="./static/icons/devicon/git/git-plain.svg"></ion-icon>
+                <ion-icon src="./static/media/icons/devicon/git/git-plain.svg"></ion-icon>
               </a>
 
               <div id="git_collapse" class="collapse">
                 <p class="card-text">Proficiency: <kbd>Beginner</kbd></p>
-                <p class="card-text">Years of Experience: <kbd>1</kbd></p>
+                <p class="card-text">Years of Experience: <kbd id="git_years">1</kbd></p>
               </div>
             </li>
 
             <!-- HTML5 -->
             <li class="list-group-item">
               <a data-toggle="collapse" class="icon" data-target="#html5_collapse">
-                <ion-icon src="./static/icons/devicon/html5/html5-plain.svg"></ion-icon>
+                <ion-icon src="./static/media/icons/devicon/html5/html5-plain.svg"></ion-icon>
               </a>
 
               <div id="html5_collapse" class="collapse">
                 <p class="card-text">Proficiency: <kbd>Familiar</kbd></p>
-                <p class="card-text">Years of Experience: <kbd>2</kbd></p>
+                <p class="card-text">Years of Experience: <kbd id="html5_years">2</kbd></p>
               </div>
             </li>
 
-            <!-- HTML5 -->
+            <!-- Java -->
             <li class="list-group-item">
               <a data-toggle="collapse" class="icon" data-target="#java_collapse">
-                <ion-icon src="./static/icons/devicon/java/java-plain.svg"></ion-icon>
+                <ion-icon src="./static/media/icons/devicon/java/java-plain.svg"></ion-icon>
               </a>
 
               <div id="java_collapse" class="collapse">
                 <p class="card-text">Proficiency: <kbd>Beginner</kbd></p>
-                <p class="card-text">Years of Experience: <kbd>1</kbd></p>
+                <p class="card-text">Years of Experience: <kbd id="java_years">1</kbd></p>
               </div>
             </li>
 
             <!-- JavaScript -->
             <li class="list-group-item">
               <a data-toggle="collapse" class="icon" data-target="#javascript_collapse">
-                <ion-icon src="./static/icons/devicon/javascript/javascript-plain.svg"></ion-icon>
+                <ion-icon src="./static/media/icons/devicon/javascript/javascript-plain.svg"></ion-icon>
               </a>
 
               <div id="javascript_collapse" class="collapse">
                 <p class="card-text">Proficiency: <kbd>Familiar</kbd></p>
-                <p class="card-text">Years of Experience: <kbd>1</kbd></p>
+                <p class="card-text">Years of Experience: <kbd id="javascript_years">1</kbd></p>
               </div>
             </li>
 
             <!-- Python -->
             <li class="list-group-item">
               <a data-toggle="collapse" class="icon" data-target="#python_collapse">
-                <ion-icon src="./static/icons/devicon/python/python-plain.svg"></ion-icon>
+                <ion-icon src="./static/media/icons/devicon/python/python-plain.svg"></ion-icon>
               </a>
 
               <div id="python_collapse" class="collapse">
                 <p class="card-text">Proficiency: <kbd>Proficient</kbd></p>
-                <p class="card-text">Years of Experience: <kbd>3</kbd></p>
+                <p class="card-text">Years of Experience: <kbd id="python_years">3</kbd></p>
               </div>
             </li>
 
@@ -207,7 +206,7 @@
           <h4 class="card-title">Personal Info</h4>
 
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><p class="card-text">Age: <kbd>20</kbd></p></li>
+            <li class="list-group-item"><p class="card-text">Age: <kbd id="age">20</kbd></p></li>
             <li class="list-group-item"><p class="card-text">Birthdate: <kbd>June 16, 1999</kbd></p></li>
             <li class="list-group-item"><p class="card-text">Hometown: <kbd>San Jose, CA</kbd></p></li>
             <li class="list-group-item"><p class="card-text">Current Residence: <kbd>Irvine, CA</kbd></p></li>
@@ -247,11 +246,7 @@
     </div>
 
     <!-- Add dependencies -->
-    <script>
-      $(document).ready(function(){
-        $('[data-toggle="popover"]').popover();
-      });
-    </script>
+    <script src="./static/js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
