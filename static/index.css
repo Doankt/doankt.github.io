@@ -4,6 +4,7 @@
 
 .bordered {
   margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -15,6 +16,14 @@
   background-color: #f3bee4;
 }
 
+.card-header{
+  background-color: #f3bee4;
+}
+
+.jumbotron{
+  background-color: #f3bee4;
+  text-align: center;
+}
 
 body {
   background-color: #f3e0be; //Vanilla Custard
