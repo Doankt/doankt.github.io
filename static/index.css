@@ -33,3 +33,7 @@ body {
   background-color: #f3e0be; //Vanilla Custard
   /* background-color: #ff6f61; //Living Coral */
 }
+
+ion-icon{
+  font-size: 64px;
+}
