@@ -29,6 +29,10 @@
   color: #6c757d;
 }
 
+.list-group-item{
+  background-color: transparent;
+}
+
 body {
   background-color: #f3e0be; //Vanilla Custard
 }

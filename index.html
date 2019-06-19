@@ -79,15 +79,15 @@
 
       <!-- Taekwondo icon -->
       <a title="Team USA Profile" class="icon" href="https://www.teamusa.org/usa-taekwondo/athletes/Kenneth-Doan" target="_blank">
-        <ion-icon src="static/icons/taekwondo_vector.svg"></ion-icon>
+        <ion-icon src="static/icons/custom/taekwondo_vector.svg"></ion-icon>
       </a>
     </div>
 
     <!-- welcome card -->
     <div class="bordered card">
       <div class="card-body text-center">
-        <h4 class="card-title">Personal Statement</h4>
-        <p class="card-text">My <kbd>personal statement</kbd> will go here! ^.^</p>
+        <h4 class="card-title">Welcome</h4>
+        <p class="card-text">My <kbd>welcome message</kbd> will go here! ^.^</p>
       </div>
     </div>
 
@@ -104,6 +104,102 @@
         </div>
       </div>
 
+      <!-- programming languages card -->
+      <div class="card">
+        <!-- <img class="p-4 card-img-top" src="./static/img/irvine_spectrum.jpg"> -->
+        <div class="card-body text-center">
+          <h4 class="card-title">Languages</h4>
+          <p class="card-text">Rated from <kbd>Beginner</kbd>, <kbd>Familiar</kbd>, <kbd>Proficient</kbd>.</p>
+
+          <ul class="list-group list-group-flush">
+            <!-- C -->
+            <li class="list-group-item">
+              <a data-toggle="collapse" data-target="#c_collapse">
+                <ion-icon src="./static/icons/devicon/c/c-plain.svg"></ion-icon>
+              </a>
+
+              <div id="c_collapse" class="collapse">
+                <p class="card-text">Proficiency: <kbd>Proficient</kbd></p>
+                <p class="card-text">Years of Experience: <kbd>1</kbd></p>
+              </div>
+            </li>
+
+            <!-- C++ -->
+            <li class="list-group-item">
+              <a data-toggle="collapse" data-target="#cplusplus_collapse">
+                <ion-icon src="./static/icons/devicon/cplusplus/cplusplus-plain.svg"></ion-icon>
+              </a>
+
+              <div id="cplusplus_collapse" class="collapse">
+                <p class="card-text">Proficiency: <kbd>Proficient</kbd></p>
+                <p class="card-text">Years of Experience: <kbd>2</kbd></p>
+              </div>
+            </li>
+
+            <!-- Git -->
+            <li class="list-group-item">
+              <a data-toggle="collapse" data-target="#git_collapse">
+                <ion-icon src="./static/icons/devicon/git/git-plain.svg"></ion-icon>
+              </a>
+
+              <div id="git_collapse" class="collapse">
+                <p class="card-text">Proficiency: <kbd>Beginner</kbd></p>
+                <p class="card-text">Years of Experience: <kbd>1</kbd></p>
+              </div>
+            </li>
+
+            <!-- HTML5 -->
+            <li class="list-group-item">
+              <a data-toggle="collapse" data-target="#html5_collapse">
+                <ion-icon src="./static/icons/devicon/html5/html5-plain.svg"></ion-icon>
+              </a>
+
+              <div id="html5_collapse" class="collapse">
+                <p class="card-text">Proficiency: <kbd>Familiar</kbd></p>
+                <p class="card-text">Years of Experience: <kbd>2</kbd></p>
+              </div>
+            </li>
+
+            <!-- HTML5 -->
+            <li class="list-group-item">
+              <a data-toggle="collapse" data-target="#java_collapse">
+                <ion-icon src="./static/icons/devicon/java/java-plain.svg"></ion-icon>
+              </a>
+
+              <div id="java_collapse" class="collapse">
+                <p class="card-text">Proficiency: <kbd>Beginner</kbd></p>
+                <p class="card-text">Years of Experience: <kbd>1</kbd></p>
+              </div>
+            </li>
+
+            <!-- JavaScript -->
+            <li class="list-group-item">
+              <a data-toggle="collapse" data-target="#javascript_collapse">
+                <ion-icon src="./static/icons/devicon/javascript/javascript-plain.svg"></ion-icon>
+              </a>
+
+              <div id="javascript_collapse" class="collapse">
+                <p class="card-text">Proficiency: <kbd>Familiar</kbd></p>
+                <p class="card-text">Years of Experience: <kbd>1</kbd></p>
+              </div>
+            </li>
+
+            <!-- Python -->
+            <li class="list-group-item">
+              <a data-toggle="collapse" data-target="#python_collapse">
+                <ion-icon src="./static/icons/devicon/python/python-plain.svg"></ion-icon>
+              </a>
+
+              <div id="python_collapse" class="collapse">
+                <p class="card-text">Proficiency: <kbd>Proficient</kbd></p>
+                <p class="card-text">Years of Experience: <kbd>3</kbd></p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
       <!-- personal info card -->
       <div class="card">
         <img class="p-4 card-img-top" src="./static/img/irvine_spectrum.jpg">
@@ -111,10 +207,10 @@
           <h4 class="card-title">Personal Info</h4>
 
           <ul class="list-group list-group-flush">
-            <li class="list-group-item" style="background-color: transparent"><p class="card-text">Age: <kbd>20</kbd></p></li>
-            <li class="list-group-item" style="background-color: transparent"><p class="card-text">Birthdate: <kbd>June 16, 1999</kbd></p></li>
-            <li class="list-group-item" style="background-color: transparent"><p class="card-text">Hometown: <kbd>San Jose, CA</kbd></p></li>
-            <li class="list-group-item" style="background-color: transparent"><p class="card-text">Current Residence: <kbd>Irvine, CA</kbd></p></li>
+            <li class="list-group-item"><p class="card-text">Age: <kbd>20</kbd></p></li>
+            <li class="list-group-item"><p class="card-text">Birthdate: <kbd>June 16, 1999</kbd></p></li>
+            <li class="list-group-item"><p class="card-text">Hometown: <kbd>San Jose, CA</kbd></p></li>
+            <li class="list-group-item"><p class="card-text">Current Residence: <kbd>Irvine, CA</kbd></p></li>
           </ul>
         </div>
       </div>
@@ -128,7 +224,7 @@
           <ul class="list-group list-group-flush">
 
             <!-- primary email li -->
-            <li class="list-group-item" style="background-color: transparent">
+            <li class="list-group-item">
               <p class="card-text">Primary Email: <kbd>kennethdoanor@gmail.com</kbd></p>
 
               <a title="Mail Primary" class="icon" href="mailto:kennethdoanor@gmail.com">
@@ -137,7 +233,7 @@
             </li>
 
             <!-- secondary email li -->
-            <li class="list-group-item" style="background-color: transparent">
+            <li class="list-group-item">
               <p class="card-text">Secondary Email: <kbd>doankt@uci.edu</kbd></p>
 
               <a title="Mail Secondary" class="icon" href="mailto:doankt@uci.edu">
@@ -150,10 +246,18 @@
 
     </div>
 
-  <!-- Add dependencies -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Add dependencies -->
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
+
+<!-- Icons used from https://konpa.github.io/devicon/ -->
+<!-- Icons used from https://ionicons.com/ -->
 
 </html>
