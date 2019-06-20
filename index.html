@@ -16,6 +16,10 @@
     <!-- ion-icons dependencies -->
     <script type="module" src="https://unpkg.com/ionicons@4.5.9-1/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/ionicons@4.5.9-1/dist/ionicons/ionicons.js"></script>
+
+    <!-- jQuery dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
     <title>Kenneth Doan's Page</title>
   </head>
 
@@ -50,7 +54,7 @@
 
     <!-- profile picture with name -->
     <div class="text-center">
-      <img class="rounded bordered" style="height:250px;width:250px;" src="static/media/img/doankt_profile.jpg">
+      <img class="rounded bordered" style="height:250px;width:250px" src="static/media/img/doankt_profile.jpg">
       <h1 class="bordered">Kenneth Doan</h1>
     </div>
 
@@ -58,28 +62,28 @@
     <div class="text-center">
 
       <!-- Facebook icon -->
-      <a title="Facebook" class="icon" href="https://www.facebook.com/kenneth.doan.7" target="_blank">
-        <ion-icon name="logo-facebook"></ion-icon>
+      <a class="icon" href="https://www.facebook.com/kenneth.doan.7" target="_blank">
+        <ion-icon name="logo-facebook" title="Facebook" data-toggle="tooltip"></ion-icon>
       </a>
 
       <!-- Instagram icon -->
       <a title="Instagram" class="icon" href="https://www.instagram.com/kenneth_doan/" target="_blank">
-        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-instagram" title="Instagram" data-toggle="tooltip"></ion-icon>
       </a>
 
       <!-- LinkedIn icon -->
       <a title="LinkedIn" class="icon" href="https://www.linkedin.com/in/kenneth-d-577850b4/" target="_blank">
-        <ion-icon name="logo-linkedin"></ion-icon>
+        <ion-icon name="logo-linkedin" title="LinkedIn" data-toggle="tooltip"></ion-icon>
       </a>
 
       <!-- GitHub icon -->
       <a title="GitHub" class="icon" href="https://github.com/Doankt" target="_blank">
-        <ion-icon name="logo-github"></ion-icon>
+        <ion-icon name="logo-github" title="GitHub" data-toggle="tooltip"></ion-icon>
       </a>
 
       <!-- Taekwondo icon -->
       <a title="Team USA Profile" class="icon" href="https://www.teamusa.org/usa-taekwondo/athletes/Kenneth-Doan" target="_blank">
-        <ion-icon src="static/media/icons/custom/usatkd.svg"></ion-icon>
+        <ion-icon src="static/media/icons/custom/usatkd.svg" title="Team USA" data-toggle="tooltip"></ion-icon>
       </a>
     </div>
 
@@ -114,7 +118,7 @@
             <!-- Python -->
             <li class="list-group-item">
               <a data-toggle="collapse" class="icon" data-target="#python_collapse">
-                <ion-icon src="./static/media/icons/devicon/python/python-plain.svg"></ion-icon>
+                <ion-icon src="./static/media/icons/devicon/python/python-plain.svg" title="Python" data-toggle="tooltip"></ion-icon>
               </a>
 
               <div id="python_collapse" class="collapse">
@@ -126,7 +130,7 @@
             <!-- C++ -->
             <li class="list-group-item">
               <a data-toggle="collapse" class="icon" data-target="#cplusplus_collapse">
-                <ion-icon src="./static/media/icons/devicon/cplusplus/cplusplus-plain.svg"></ion-icon>
+                <ion-icon src="./static/media/icons/devicon/cplusplus/cplusplus-plain.svg" title="C++" data-toggle="tooltip"></ion-icon>
               </a>
 
               <div id="cplusplus_collapse" class="collapse">
@@ -138,7 +142,7 @@
             <!-- HTML5 -->
             <li class="list-group-item">
               <a data-toggle="collapse" class="icon" data-target="#html5_collapse">
-                <ion-icon src="./static/media/icons/devicon/html5/html5-plain.svg"></ion-icon>
+                <ion-icon src="./static/media/icons/devicon/html5/html5-plain.svg" title="HTML5" data-toggle="tooltip"></ion-icon>
               </a>
 
               <div id="html5_collapse" class="collapse">
@@ -150,7 +154,7 @@
             <!-- C -->
             <li class="list-group-item">
               <a data-toggle="collapse" class="icon" data-target="#c_collapse">
-                <ion-icon src="./static/media/icons/devicon/c/c-plain.svg"></ion-icon>
+                <ion-icon src="./static/media/icons/devicon/c/c-plain.svg" title="C" data-toggle="tooltip"></ion-icon>
               </a>
 
               <div id="c_collapse" class="collapse">
@@ -162,7 +166,7 @@
             <!-- JavaScript -->
             <li class="list-group-item">
               <a data-toggle="collapse" class="icon" data-target="#javascript_collapse">
-                <ion-icon src="./static/media/icons/devicon/javascript/javascript-plain.svg"></ion-icon>
+                <ion-icon src="./static/media/icons/devicon/javascript/javascript-plain.svg" title="JavaScript" data-toggle="tooltip"></ion-icon>
               </a>
 
               <div id="javascript_collapse" class="collapse">
@@ -174,7 +178,7 @@
             <!-- Git -->
             <li class="list-group-item">
               <a data-toggle="collapse" class="icon" data-target="#git_collapse">
-                <ion-icon src="./static/media/icons/devicon/git/git-plain.svg"></ion-icon>
+                <ion-icon src="./static/media/icons/devicon/git/git-plain.svg" title="Git" data-toggle="tooltip"></ion-icon>
               </a>
 
               <div id="git_collapse" class="collapse">
@@ -186,7 +190,7 @@
             <!-- Java -->
             <li class="list-group-item">
               <a data-toggle="collapse" class="icon" data-target="#java_collapse">
-                <ion-icon src="./static/media/icons/devicon/java/java-plain.svg"></ion-icon>
+                <ion-icon src="./static/media/icons/devicon/java/java-plain.svg" title="Java" data-toggle="tooltip"></ion-icon>
               </a>
 
               <div id="java_collapse" class="collapse">
@@ -226,8 +230,8 @@
             <li class="list-group-item">
               <p class="card-text">Primary Email: <kbd>kennethdoanor@gmail.com</kbd></p>
 
-              <a title="Mail Primary" class="icon" href="mailto:kennethdoanor@gmail.com">
-                <ion-icon name="mail"></ion-icon>
+              <a class="icon" href="mailto:kennethdoanor@gmail.com">
+                <ion-icon name="mail" data-toggle="tooltip" title="Mail Primary"></ion-icon>
               </a>
             </li>
 
@@ -235,8 +239,8 @@
             <li class="list-group-item">
               <p class="card-text">Secondary Email: <kbd>doankt@uci.edu</kbd></p>
 
-              <a title="Mail Secondary" class="icon" href="mailto:doankt@uci.edu">
-                <ion-icon name="mail"></ion-icon>
+              <a class="icon" href="mailto:doankt@uci.edu">
+                <ion-icon name="mail" data-toggle="tooltip" title="Mail Secondary"></ion-icon>
               </a>
             </li>
           </ul>
@@ -245,11 +249,18 @@
 
     </div>
 
-    <!-- Add dependencies -->
+    <!-- add dependencies -->
     <script src="./static/js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- enable all tooltips -->
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
   </body>
 
 <!-- Icons used from https://konpa.github.io/devicon/ -->
