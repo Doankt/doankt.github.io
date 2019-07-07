@@ -91,7 +91,7 @@
     <div class="bordered card">
       <div class="card-body text-center">
         <h4 class="card-title">Welcome</h4>
-        <p class="card-text">My <kbd>welcome message</kbd> will go here! ^.^</p>
+        <p class="card-text">My <strong>welcome message</strong> will go here! ^.^</p>
       </div>
     </div>
 
@@ -100,11 +100,11 @@
 
       <!-- about me card -->
       <div class="card">
-        <img class="p-4 card-img-top" src="./static/media/img/taekwondo/doankt_tkd0.jpg">
+        <!-- <img class="p-4 card-img-top" src="./static/media/img/taekwondo/doankt_tkd0.jpg"> -->
         <div class="card-body text-center">
           <h4 class="card-title">About Me</h4>
-          <p class="card-text">Hi! I'm a third year student at <kbd>University of California, Irvine</kbd> currently studying <kbd>Computer Science</kbd>.</p>
-          <p class="card-text">Along side, I have been a <kbd>USA National Team Member</kbd> in Taekwondo first starting in 2014.</p>
+          <p class="card-text">Hi! I'm a third year student at <strong>University of California, Irvine</strong> currently studying <strong>Computer Science</strong>.</p>
+          <p class="card-text">Along side, I have been a <strong>USA National Team Member</strong> in Taekwondo first starting in 2014.</p>
         </div>
       </div>
 
@@ -112,90 +112,103 @@
       <div class="card">
         <div class="card-body text-center">
           <h4 class="card-title">Programming Skills</h4>
-          <p class="card-text">Rated from <kbd>Beginner</kbd>, <kbd>Familiar</kbd>, <kbd>Proficient</kbd>.</p>
           <ul class="list-group list-group-flush">
 
             <!-- Python -->
             <li class="list-group-item">
-              <a data-toggle="collapse" class="icon" data-target="#python_collapse">
-                <ion-icon src="./static/media/icons/devicon/python/python-plain.svg" title="Python" data-toggle="tooltip" data-placement="right"></ion-icon>
-              </a>
+              <div class="row">
+                <div class="col-4">
+                  <ion-icon src="./static/media/icons/devicon/python/python-plain.svg" title="Python 3" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+                </div>
 
-              <div id="python_collapse" class="collapse">
-                <p class="card-text">Proficiency: <kbd>Proficient</kbd></p>
-                <p class="card-text">Years of Experience: <kbd id="python_years">3</kbd></p>
+                <div class="col-8">
+                  <p class="card-text">Proficiency: <strong>Proficient</strong></p>
+                  <p class="card-text">Years of Experience: <strong id="python_years">3</strong></p>
+              </div>
               </div>
             </li>
 
             <!-- C++ -->
             <li class="list-group-item">
-              <a data-toggle="collapse" class="icon" data-target="#cplusplus_collapse">
-                <ion-icon src="./static/media/icons/devicon/cplusplus/cplusplus-plain.svg" title="C++" data-toggle="tooltip" data-placement="right"></ion-icon>
-              </a>
+              <div class="row">
+                <div class="col-4">
+                  <ion-icon src="./static/media/icons/devicon/cplusplus/cplusplus-plain.svg" title="C++" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+                </div>
 
-              <div id="cplusplus_collapse" class="collapse">
-                <p class="card-text">Proficiency: <kbd>Proficient</kbd></p>
-                <p class="card-text">Years of Experience: <kbd id="cplusplus_years">2</kbd></p>
+                <div class="col-8">
+                  <p class="card-text">Proficiency: <strong>Proficient</strong></p>
+                  <p class="card-text">Years of Experience: <strong id="cplusplus_years">2</strong></p>
+                </div>
               </div>
             </li>
 
             <!-- HTML5 -->
             <li class="list-group-item">
-              <a data-toggle="collapse" class="icon" data-target="#html5_collapse">
-                <ion-icon src="./static/media/icons/devicon/html5/html5-plain.svg" title="HTML5" data-toggle="tooltip" data-placement="right"></ion-icon>
-              </a>
+              <div class="row">
+                <div class="col-4">
+                  <ion-icon src="./static/media/icons/devicon/html5/html5-plain.svg" title="HTML5" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+                </div>
 
-              <div id="html5_collapse" class="collapse">
-                <p class="card-text">Proficiency: <kbd>Familiar</kbd></p>
-                <p class="card-text">Years of Experience: <kbd id="html5_years">2</kbd></p>
+                <div class="col-8">
+                  <p class="card-text">Proficiency: <strong>Familiar</strong></p>
+                  <p class="card-text">Years of Experience: <strong id="html5_years">2</strong></p>
+                </div>
               </div>
             </li>
 
             <!-- C -->
             <li class="list-group-item">
-              <a data-toggle="collapse" class="icon" data-target="#c_collapse">
-                <ion-icon src="./static/media/icons/devicon/c/c-plain.svg" title="C" data-toggle="tooltip" data-placement="right"></ion-icon>
-              </a>
+              <div class="row">
+                <div class="col-4">
+                  <ion-icon src="./static/media/icons/devicon/c/c-plain.svg" title="C" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+                </div>
 
-              <div id="c_collapse" class="collapse">
-                <p class="card-text">Proficiency: <kbd>Proficient</kbd></p>
-                <p class="card-text">Years of Experience: <kbd id="c_years">1</kbd></p>
+                <div class="col-8">
+                  <p class="card-text">Proficiency: <strong>Proficient</strong></p>
+                  <p class="card-text">Years of Experience: <strong id="c_years">1</strong></p>
+                </div>
               </div>
             </li>
 
             <!-- JavaScript -->
             <li class="list-group-item">
-              <a data-toggle="collapse" class="icon" data-target="#javascript_collapse">
-                <ion-icon src="./static/media/icons/devicon/javascript/javascript-plain.svg" title="JavaScript" data-toggle="tooltip" data-placement="right"></ion-icon>
-              </a>
+              <div class="row">
+                <div class="col-4">
+                  <ion-icon src="./static/media/icons/devicon/javascript/javascript-plain.svg" title="JavaScript" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+                </div>
 
-              <div id="javascript_collapse" class="collapse">
-                <p class="card-text">Proficiency: <kbd>Familiar</kbd></p>
-                <p class="card-text">Years of Experience: <kbd id="javascript_years">1</kbd></p>
+                <div class="col-8">
+                  <p class="card-text">Proficiency: <strong>Familiar</strong></p>
+                  <p class="card-text">Years of Experience: <strong id="javascript_years">1</strong></p>
+                </div>
               </div>
             </li>
 
             <!-- Git -->
             <li class="list-group-item">
-              <a data-toggle="collapse" class="icon" data-target="#git_collapse">
-                <ion-icon src="./static/media/icons/devicon/git/git-plain.svg" title="Git" data-toggle="tooltip" data-placement="right"></ion-icon>
-              </a>
+              <div class="row">
+                <div class="col-4">
+                  <ion-icon src="./static/media/icons/devicon/git/git-plain.svg" title="Git" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+                </div>
 
-              <div id="git_collapse" class="collapse">
-                <p class="card-text">Proficiency: <kbd>Beginner</kbd></p>
-                <p class="card-text">Years of Experience: <kbd id="git_years">1</kbd></p>
+                <div class="col-8">
+                  <p class="card-text">Proficiency: <strong>Beginner</strong></p>
+                  <p class="card-text">Years of Experience: <strong id="git_years">1</strong></p>
+                </div>
               </div>
             </li>
 
             <!-- Java -->
             <li class="list-group-item">
-              <a data-toggle="collapse" class="icon" data-target="#java_collapse">
-                <ion-icon src="./static/media/icons/devicon/java/java-plain.svg" title="Java" data-toggle="tooltip" data-placement="right"></ion-icon>
-              </a>
+              <div class="row">
+                <div class="col-4">
+                  <ion-icon src="./static/media/icons/devicon/java/java-plain.svg" title="Java" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+                </div>
 
-              <div id="java_collapse" class="collapse">
-                <p class="card-text">Proficiency: <kbd>Beginner</kbd></p>
-                <p class="card-text">Years of Experience: <kbd id="java_years">1</kbd></p>
+                <div class="col-8">
+                  <p class="card-text">Proficiency: <strong>Beginner</strong></p>
+                  <p class="card-text">Years of Experience: <strong id="java_years">1</strong></p>
+                </div>
               </div>
             </li>
 
@@ -204,19 +217,19 @@
       </div>
 
       <!-- personal info card -->
-      <div class="card">
+      <!-- <div class="card">
         <img class="p-4 card-img-top" src="./static/media/img/irvine_spectrum.jpg">
         <div class="card-body text-center">
           <h4 class="card-title">Personal Info</h4>
 
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><p class="card-text">Age: <kbd id="age">20</kbd></p></li>
-            <li class="list-group-item"><p class="card-text">Birthdate: <kbd>June 16, 1999</kbd></p></li>
-            <li class="list-group-item"><p class="card-text">Hometown: <kbd>San Jose, CA</kbd></p></li>
-            <li class="list-group-item"><p class="card-text">Current Residence: <kbd>Irvine, CA</kbd></p></li>
+            <li class="list-group-item"><p class="card-text">Age: <strong id="age">20</strong></p></li>
+            <li class="list-group-item"><p class="card-text">Birthdate: <strong>June 16, 1999</strong></p></li>
+            <li class="list-group-item"><p class="card-text">Hometown: <strong>San Jose, CA</strong></p></li>
+            <li class="list-group-item"><p class="card-text">Current Residence: <strong>Irvine, CA</strong></p></li>
           </ul>
         </div>
-      </div>
+      </div> -->
 
       <!-- contact info card -->
       <div class="card">
@@ -228,7 +241,7 @@
 
             <!-- primary email li -->
             <li class="list-group-item">
-              <p class="card-text">Primary Email: <kbd>kennethdoanor@gmail.com</kbd></p>
+              <p class="card-text">Primary Email: <strong>kennethdoanor@gmail.com</strong></p>
 
               <a class="icon" href="mailto:kennethdoanor@gmail.com">
                 <ion-icon name="mail" data-toggle="tooltip" title="Mail Primary" data-placement="right"></ion-icon>
@@ -237,7 +250,7 @@
 
             <!-- secondary email li -->
             <li class="list-group-item">
-              <p class="card-text">Secondary Email: <kbd>doankt@uci.edu</kbd></p>
+              <p class="card-text">Secondary Email: <strong>doankt@uci.edu</strong></p>
 
               <a class="icon" href="mailto:doankt@uci.edu">
                 <ion-icon name="mail" data-toggle="tooltip" title="Mail Secondary" data-placement="right"></ion-icon>
