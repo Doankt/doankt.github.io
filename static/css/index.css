@@ -38,6 +38,18 @@
   background-color: transparent;
 }
 
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
 body {
   background-color: #f3e0be; //Vanilla Custard
 }
