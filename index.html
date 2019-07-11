@@ -52,214 +52,218 @@
       </div>
     </nav>
 
-    <!-- profile picture with name -->
-    <div class="text-center">
-      <img class="rounded bordered" style="height:250px;width:250px" src="static/media/img/doankt_profile.jpg">
-      <h1 class="bordered">Kenneth Doan</h1>
-    </div>
-
-    <!-- row of icon links -->
-    <div class="text-center">
-
-      <!-- Facebook icon -->
-      <a class="icon" href="https://www.facebook.com/kenneth.doan.7" target="_blank">
-        <ion-icon name="logo-facebook" title="Facebook" data-toggle="tooltip" data-placement="bottom"></ion-icon>
-      </a>
-
-      <!-- Instagram icon -->
-      <a title="Instagram" class="icon" href="https://www.instagram.com/kenneth_doan/" target="_blank">
-        <ion-icon name="logo-instagram" title="Instagram" data-toggle="tooltip" data-placement="bottom"></ion-icon>
-      </a>
-
-      <!-- LinkedIn icon -->
-      <a title="LinkedIn" class="icon" href="https://www.linkedin.com/in/doankt/" target="_blank">
-        <ion-icon name="logo-linkedin" title="LinkedIn" data-toggle="tooltip" data-placement="bottom"></ion-icon>
-      </a>
-
-      <!-- GitHub icon -->
-      <a title="GitHub" class="icon" href="https://github.com/Doankt" target="_blank">
-        <ion-icon name="logo-github" title="GitHub" data-toggle="tooltip" data-placement="bottom"></ion-icon>
-      </a>
-
-      <!-- Taekwondo icon -->
-      <a title="Team USA Profile" class="icon" href="https://www.teamusa.org/usa-taekwondo/athletes/Kenneth-Doan" target="_blank">
-        <ion-icon src="static/media/icons/custom/usatkd.svg" title="Team USA" data-toggle="tooltip" data-placement="bottom"></ion-icon>
-      </a>
-    </div>
-
-    <!-- welcome card -->
-    <div class="bordered card">
-      <div class="card-body text-center">
-        <h4 class="card-title">Welcome</h4>
-        <p class="card-text">My <strong>welcome message</strong> will go here! ^.^</p>
-      </div>
-    </div>
-
-    <!-- card columns -->
-    <div class="bordered card-columns">
-
-      <!-- about me card -->
-      <div class="card">
-        <!-- <img class="p-4 card-img-top" src="./static/media/img/taekwondo/doankt_tkd0.jpg"> -->
-        <div class="card-body text-center">
-          <h4 class="card-title">About Me</h4>
-          <p class="card-text">Hi! I'm a third year student at <strong>University of California, Irvine</strong> currently studying <strong>Computer Science</strong>.</p>
-          <p class="card-text">Along side, I have been a <strong>USA National Team Member</strong> in Taekwondo first starting in 2014.</p>
+    <div class="body-bordered">
+      <!-- profile picture with name -->
+      <div class="text-center row">
+        <div class="col-4">
+          <img class="rounded bordered" style="height:250px;width:250px" src="static/media/img/doankt_profile.jpg">
+        </div>
+        <div class="col-8">
+          <!-- welcome card -->
+          <div class="bordered card" style="height:250px">
+            <div class="card-body text-center">
+              <h4 class="card-title">Welcome</h4>
+              <p class="card-text">My <strong>welcome message</strong> will go here! ^.^</p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- programming languages card -->
-      <div class="card">
-        <div class="card-body text-center">
-          <h4 class="card-title">Programming Skills</h4>
-          <ul class="list-group list-group-flush">
+      <!-- row of icon links -->
+      <div class="text-center">
 
-            <!-- Python -->
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-4">
-                  <ion-icon src="./static/media/icons/devicon/python/python-plain.svg" title="Python 3" data-toggle="tooltip" data-placement="bottom"></ion-icon>
-                </div>
+        <!-- Facebook icon -->
+        <a class="icon" href="https://www.facebook.com/kenneth.doan.7" target="_blank">
+          <ion-icon name="logo-facebook" title="Facebook" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+        </a>
 
-                <div class="col-8">
-                  <p class="card-text">Proficiency: <strong>Proficient</strong></p>
-                  <p class="card-text">Years of Experience: <strong id="python_years">3</strong></p>
-              </div>
-              </div>
-            </li>
+        <!-- Instagram icon -->
+        <a title="Instagram" class="icon" href="https://www.instagram.com/kenneth_doan/" target="_blank">
+          <ion-icon name="logo-instagram" title="Instagram" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+        </a>
 
-            <!-- C++ -->
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-4">
-                  <ion-icon src="./static/media/icons/devicon/cplusplus/cplusplus-plain.svg" title="C++" data-toggle="tooltip" data-placement="bottom"></ion-icon>
-                </div>
+        <!-- LinkedIn icon -->
+        <a title="LinkedIn" class="icon" href="https://www.linkedin.com/in/doankt/" target="_blank">
+          <ion-icon name="logo-linkedin" title="LinkedIn" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+        </a>
 
-                <div class="col-8">
-                  <p class="card-text">Proficiency: <strong>Proficient</strong></p>
-                  <p class="card-text">Years of Experience: <strong id="cplusplus_years">2</strong></p>
-                </div>
-              </div>
-            </li>
+        <!-- GitHub icon -->
+        <a title="GitHub" class="icon" href="https://github.com/Doankt" target="_blank">
+          <ion-icon name="logo-github" title="GitHub" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+        </a>
 
-            <!-- HTML5 -->
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-4">
-                  <ion-icon src="./static/media/icons/devicon/html5/html5-plain.svg" title="HTML5" data-toggle="tooltip" data-placement="bottom"></ion-icon>
-                </div>
-
-                <div class="col-8">
-                  <p class="card-text">Proficiency: <strong>Familiar</strong></p>
-                  <p class="card-text">Years of Experience: <strong id="html5_years">2</strong></p>
-                </div>
-              </div>
-            </li>
-
-            <!-- C -->
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-4">
-                  <ion-icon src="./static/media/icons/devicon/c/c-plain.svg" title="C" data-toggle="tooltip" data-placement="bottom"></ion-icon>
-                </div>
-
-                <div class="col-8">
-                  <p class="card-text">Proficiency: <strong>Proficient</strong></p>
-                  <p class="card-text">Years of Experience: <strong id="c_years">1</strong></p>
-                </div>
-              </div>
-            </li>
-
-            <!-- JavaScript -->
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-4">
-                  <ion-icon src="./static/media/icons/devicon/javascript/javascript-plain.svg" title="JavaScript" data-toggle="tooltip" data-placement="bottom"></ion-icon>
-                </div>
-
-                <div class="col-8">
-                  <p class="card-text">Proficiency: <strong>Familiar</strong></p>
-                  <p class="card-text">Years of Experience: <strong id="javascript_years">1</strong></p>
-                </div>
-              </div>
-            </li>
-
-            <!-- Git -->
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-4">
-                  <ion-icon src="./static/media/icons/devicon/git/git-plain.svg" title="Git" data-toggle="tooltip" data-placement="bottom"></ion-icon>
-                </div>
-
-                <div class="col-8">
-                  <p class="card-text">Proficiency: <strong>Beginner</strong></p>
-                  <p class="card-text">Years of Experience: <strong id="git_years">1</strong></p>
-                </div>
-              </div>
-            </li>
-
-            <!-- Java -->
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-4">
-                  <ion-icon src="./static/media/icons/devicon/java/java-plain.svg" title="Java" data-toggle="tooltip" data-placement="bottom"></ion-icon>
-                </div>
-
-                <div class="col-8">
-                  <p class="card-text">Proficiency: <strong>Beginner</strong></p>
-                  <p class="card-text">Years of Experience: <strong id="java_years">1</strong></p>
-                </div>
-              </div>
-            </li>
-
-          </ul>
-        </div>
+        <!-- Taekwondo icon -->
+        <a title="Team USA Profile" class="icon" href="https://www.teamusa.org/usa-taekwondo/athletes/Kenneth-Doan" target="_blank">
+          <ion-icon src="static/media/icons/custom/usatkd.svg" title="Team USA" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+        </a>
       </div>
 
-      <!-- personal info card -->
-      <!-- <div class="card">
-        <img class="p-4 card-img-top" src="./static/media/img/irvine_spectrum.jpg">
-        <div class="card-body text-center">
-          <h4 class="card-title">Personal Info</h4>
 
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item"><p class="card-text">Age: <strong id="age">20</strong></p></li>
-            <li class="list-group-item"><p class="card-text">Birthdate: <strong>June 16, 1999</strong></p></li>
-            <li class="list-group-item"><p class="card-text">Hometown: <strong>San Jose, CA</strong></p></li>
-            <li class="list-group-item"><p class="card-text">Current Residence: <strong>Irvine, CA</strong></p></li>
-          </ul>
+      <!-- card columns -->
+      <div class="bordered card-columns">
+
+        <!-- about me card -->
+        <div class="card">
+          <!-- <img class="p-4 card-img-top" src="./static/media/img/taekwondo/doankt_tkd0.jpg"> -->
+          <div class="card-body text-center">
+            <h4 class="card-title">About Me</h4>
+            <p class="card-text">Hi! I'm a third year student at <strong>University of California, Irvine</strong> currently studying <strong>Computer Science</strong>.</p>
+            <p class="card-text">Along side, I have been a <strong>USA National Team Member</strong> in Taekwondo first starting in 2014.</p>
+          </div>
         </div>
-      </div> -->
 
-      <!-- contact info card -->
-      <div class="card">
-        <!-- <img class="p-4 card-img-top" src="./static/img/temp.png"> -->
-        <div class="card-body text-center">
-          <h4 class="card-title">Contact Info</h4>
+        <!-- programming languages card -->
+        <div class="card">
+          <div class="card-body text-center">
+            <h4 class="card-title">Programming Skills</h4>
+            <ul class="list-group list-group-flush">
 
-          <ul class="list-group list-group-flush">
+              <!-- Python -->
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-4">
+                    <ion-icon src="./static/media/icons/devicon/python/python-plain.svg" title="Python 3" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+                  </div>
 
-            <!-- primary email li -->
-            <li class="list-group-item">
-              <p class="card-text">Primary Email: <strong>kennethdoanor@gmail.com</strong></p>
+                  <div class="col-8">
+                    <p class="card-text">Proficiency: <strong>Proficient</strong></p>
+                    <p class="card-text">Years of Experience: <strong id="python_years">3</strong></p>
+                </div>
+                </div>
+              </li>
 
-              <a class="icon" href="mailto:kennethdoanor@gmail.com">
-                <ion-icon name="mail" data-toggle="tooltip" title="Mail Primary" data-placement="right"></ion-icon>
-              </a>
-            </li>
+              <!-- C++ -->
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-4">
+                    <ion-icon src="./static/media/icons/devicon/cplusplus/cplusplus-plain.svg" title="C++" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+                  </div>
 
-            <!-- secondary email li -->
-            <li class="list-group-item">
-              <p class="card-text">Secondary Email: <strong>doankt@uci.edu</strong></p>
+                  <div class="col-8">
+                    <p class="card-text">Proficiency: <strong>Proficient</strong></p>
+                    <p class="card-text">Years of Experience: <strong id="cplusplus_years">2</strong></p>
+                  </div>
+                </div>
+              </li>
 
-              <a class="icon" href="mailto:doankt@uci.edu">
-                <ion-icon name="mail" data-toggle="tooltip" title="Mail Secondary" data-placement="right"></ion-icon>
-              </a>
-            </li>
-          </ul>
+              <!-- HTML5 -->
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-4">
+                    <ion-icon src="./static/media/icons/devicon/html5/html5-plain.svg" title="HTML5" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+                  </div>
+
+                  <div class="col-8">
+                    <p class="card-text">Proficiency: <strong>Familiar</strong></p>
+                    <p class="card-text">Years of Experience: <strong id="html5_years">2</strong></p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- C -->
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-4">
+                    <ion-icon src="./static/media/icons/devicon/c/c-plain.svg" title="C" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+                  </div>
+
+                  <div class="col-8">
+                    <p class="card-text">Proficiency: <strong>Proficient</strong></p>
+                    <p class="card-text">Years of Experience: <strong id="c_years">1</strong></p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- JavaScript -->
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-4">
+                    <ion-icon src="./static/media/icons/devicon/javascript/javascript-plain.svg" title="JavaScript" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+                  </div>
+
+                  <div class="col-8">
+                    <p class="card-text">Proficiency: <strong>Familiar</strong></p>
+                    <p class="card-text">Years of Experience: <strong id="javascript_years">1</strong></p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Git -->
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-4">
+                    <ion-icon src="./static/media/icons/devicon/git/git-plain.svg" title="Git" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+                  </div>
+
+                  <div class="col-8">
+                    <p class="card-text">Proficiency: <strong>Beginner</strong></p>
+                    <p class="card-text">Years of Experience: <strong id="git_years">1</strong></p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Java -->
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-4">
+                    <ion-icon src="./static/media/icons/devicon/java/java-plain.svg" title="Java" data-toggle="tooltip" data-placement="bottom"></ion-icon>
+                  </div>
+
+                  <div class="col-8">
+                    <p class="card-text">Proficiency: <strong>Beginner</strong></p>
+                    <p class="card-text">Years of Experience: <strong id="java_years">1</strong></p>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <!-- personal info card -->
+        <!-- <div class="card">
+          <img class="p-4 card-img-top" src="./static/media/img/irvine_spectrum.jpg">
+          <div class="card-body text-center">
+            <h4 class="card-title">Personal Info</h4>
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><p class="card-text">Age: <strong id="age">20</strong></p></li>
+              <li class="list-group-item"><p class="card-text">Birthdate: <strong>June 16, 1999</strong></p></li>
+              <li class="list-group-item"><p class="card-text">Hometown: <strong>San Jose, CA</strong></p></li>
+              <li class="list-group-item"><p class="card-text">Current Residence: <strong>Irvine, CA</strong></p></li>
+            </ul>
+          </div>
+        </div> -->
+
+        <!-- contact info card -->
+        <div class="card">
+          <!-- <img class="p-4 card-img-top" src="./static/img/temp.png"> -->
+          <div class="card-body text-center">
+            <h4 class="card-title">Contact Info</h4>
+
+            <ul class="list-group list-group-flush">
+
+              <!-- primary email li -->
+              <li class="list-group-item">
+                <p class="card-text">Primary Email: <strong>kennethdoanor@gmail.com</strong></p>
+
+                <a class="icon" href="mailto:kennethdoanor@gmail.com">
+                  <ion-icon name="mail" data-toggle="tooltip" title="Mail Primary" data-placement="right"></ion-icon>
+                </a>
+              </li>
+
+              <!-- secondary email li -->
+              <li class="list-group-item">
+                <p class="card-text">Secondary Email: <strong>doankt@uci.edu</strong></p>
+
+                <a class="icon" href="mailto:doankt@uci.edu">
+                  <ion-icon name="mail" data-toggle="tooltip" title="Mail Secondary" data-placement="right"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-
     </div>
 
     <!-- add dependencies -->
