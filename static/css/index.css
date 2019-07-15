@@ -44,7 +44,8 @@
     }
 }
 
-@media (min-width: 768px) {
+/* 768px prior */
+@media (min-width: 600px) {
     .card-columns {
         column-count: 2;
     }
